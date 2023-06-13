@@ -1,0 +1,161 @@
+* {
+}
+
+body {
+    background-color: #fdf8f5;
+    max-height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: #266250;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 0%;
+    border-bottom: 10px solid #ddaf94;
+    height: fit-content;
+}
+
+#header-menu {
+    text-align: right;
+}
+
+#header-link {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+figure {
+    margin: 20px auto;
+    font-family: sans-serif, monospace;
+}
+
+/* Edits to the title, the below-image text and the contact header. */
+.text-center {
+    text-align: center;
+    color: #4f4846;
+}
+
+#content {
+    width: 100%;
+    max-height: 50vh;
+    margin: 0px auto 0px auto;
+    position: absolute;
+    top: 15px;
+}
+
+/* Edits to the title. */
+.title {
+    font-size: 40px;
+    margin-top: 70px;
+    font-family: sans-serif;
+}
+
+#contact {
+    background-color: #e8cebf;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    border-top: 5px solid #ddaf94;
+}
+
+.contact-title {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+form {
+    text-align: center;
+    color: #4f4846;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: solid 5px #ddaf94;
+    width: 450px;
+    margin: 5px auto 15px;
+    border-radius: 20px;
+}
+
+button {
+    /* For the send button. */
+    background-color: #4f4846;
+    border-style: outset;
+    border: outset 3px #2e2a29;
+    color: #fdf8f5;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #266250;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
+    display: block;
+    max-width: 50%;
+    max-height: 50vh; 
+    border: 10px solid #504846;
+    margin: 20px auto 20px;
+    object-fit: contain;
+}
+
+@media (min-height: 1201px) {
+    img {
+        max-height: 55vh;
+    }
+}
+
+@media (max-height: 1200px) {
+    img {
+        max-height: 50vh;
+    }
+}
+
+@media (max-height: 1100px) {
+    img {
+        max-height: 45vh;
+    }
+}
+
+@media (max-height: 925px) {
+    img {
+        max-height: 35vh;
+    }
+}
+
+@media (max-height: 785px) {
+    img {
+        max-height: 30vh;
+    }
+}
+
+@media (max-height: 730px) {
+    img {
+        max-height: 20vh;
+    }
+}
