@@ -1,2 +1,5 @@
 # 22-Stu_Mini-Project
-Contact-me site : for studying purposes.
+
+## Intro
+
+This is a contact-me site : for studying purposes. The site is responsive to desktop sizes,  
